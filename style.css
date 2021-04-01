@@ -260,6 +260,15 @@ section .title::after{
     transition: all 0.3s ease; 
 }
 
+.services a{
+    color: white;
+}
+
+.services a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
 .services .serv-content .card:hover{
     background: crimson;
 }
@@ -363,12 +372,14 @@ section .title::after{
 }
 
 .skills-content .right .css::before{
-    width: 60%;
+    width: 90%;
 }
 
 .skills-content .right .js::before{
-    width: 50%;
+    width: 60%;
 }
+
+
 
 /*work section styling*/
 
